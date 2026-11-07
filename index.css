@@ -176,3 +176,13 @@ h1, h2, h3{
 .card-texto {
     padding: 24px;
 }
+
+.card-info {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 2px solid var(--concreto-escuro);
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
