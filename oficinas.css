@@ -106,3 +106,55 @@ h1, h2, h3{
 .foto-tinta {
     background-color: var(--tinta);
 }
+
+.titulo-pagina {
+    font-size: 160px;
+    margin-top: 24px;
+}
+
+.subtitulo-pagina {
+    font-size: 22px;
+    max-width: 640px;
+    margin-top: 16px;
+}
+
+.filtros {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.filtro {
+    border: 2px solid var(--tinta);
+    padding: 8px 18px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.filtro.ativo {
+    background-color: var(--tinta);
+    color: var(--branco);
+}
+
+.lista {
+    margin-top: 40px;
+}
+
+.oficina {
+    padding-block: 32px;
+    border-top: 3px solid var(--tinta);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.oficina .foto{
+    width: 240px;
+    height: 170px;
+    flex-shrink: 0;
+}
+
+.oficina-texto {
+    
+}
