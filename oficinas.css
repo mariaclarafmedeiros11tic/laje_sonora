@@ -156,5 +156,40 @@ h1, h2, h3{
 }
 
 .oficina-texto {
-    
+    flex: 1;    
+}
+
+.oficina h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.etiquetas {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+}
+
+.etiqueta {
+    background-color: var(--branco);
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.oficinas-detalhes {
+    width: 220px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.oficinas-detalhes strong {
+    font-size: 17px;
+}
+
+.oficinas-detalhes a {
+    margin-top: 10px;
+    font-weight: 700;
 }
